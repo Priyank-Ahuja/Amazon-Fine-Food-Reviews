@@ -1,4 +1,4 @@
-# Amazon Fine Food Reviews
+# Case Study : Amazon Fine Food Reviews
 
 Data Source: https://www.kaggle.com/snap/amazon-fine-food-reviews 
 
@@ -28,3 +28,18 @@ Number of Attributes/Columns in data : 10
 ### Objective:
 
 Given a review, determine whether the review is positive (rating of 4 or 5) or negative (rating of 1 or 2).
+
+## WORK FLOW
+1. Data Cleaning : Deduplication
+2. Text Preprocessing
+3. Converted Text to Vectors using :
+   a. Bag of Words
+   b. TF-IDF
+   c. Avg-W2V
+   d. TF-IDF W2V
+4. Applied t-SNE on all vectorization techniques
+5. Applied KNN after all vectorization techniques to find the best model
+6. Applied Naive Bayes after all vectorization techniques to find the best model
+7. Applied Logistic Regression after all vectorization techniques to find the best model
+8. Applied SVM after all vectorization techniques to find the best model
+9. Applied Decision Tress after all vectorization techniques to find the best model
